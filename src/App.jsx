@@ -4,6 +4,7 @@ import Navigation from "./components/Navigation";
 import { HeaderContainer } from "./styled";
 import Header from "./components/Header";
 import { theme } from "./theme";
+import About from "./anchor/About";
 
 const App = () => {
   return (
@@ -19,10 +20,15 @@ const App = () => {
           </div>
         </HeaderContainer>
         <main>
-          <section id="home">Home</section>
+          {/* <section id="home">Home</section> 
           <section id="career">ici career</section>
-          <section id="skills">ici skills</section>
-          <section id="contact">ici contact</section>
+          */}
+
+          <section id="about">
+            <About />
+          </section>
+          {/* <section id="skills">ici skills</section>
+          <section id="contact">ici contact</section> */}
         </main>
       </>
     </ThemeProvider>

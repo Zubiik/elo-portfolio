@@ -5,7 +5,6 @@ export const HeaderContainer = styled.header`
   align-items: center;
   width: 100%;
   justify-content: space-between;
-  border: 1px solid blue;
 `;
 
 export const test = styled.header`

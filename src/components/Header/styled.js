@@ -4,7 +4,6 @@ export const HeaderContainer = styled.div`
   height: 100vh;
   display: flex;
   align-items: center;
-  border: blue solid 1px;
 `;
 
 export const Title = styled.h1`
