@@ -15,7 +15,7 @@ const About = () => {
           j'apprécie énormément sa flexibilité et sa capacité à créer des
           interfaces utilisateur dynamiques et interactives.
         </AboutText>
-        <ImageCircle src="../../code.jpeg" alt="code lines" />
+        <ImageCircle src="../../images/code.jpeg" alt="code lines" />
       </AboutContainer>
     </>
   );

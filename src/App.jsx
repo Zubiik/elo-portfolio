@@ -5,6 +5,7 @@ import { HeaderContainer } from "./styled";
 import Header from "./components/Header";
 import { theme } from "./theme";
 import About from "./anchor/About";
+import Skills from "./anchor/Skills";
 
 const App = () => {
   return (
@@ -16,7 +17,7 @@ const App = () => {
             <Header />
           </div>
           <div>
-            <img src="/elodie.png" alt="avatar" />
+            <img src="../../images/elodie.png" alt="avatar" />
           </div>
         </HeaderContainer>
         <main>
@@ -27,7 +28,10 @@ const App = () => {
           <section id="about">
             <About />
           </section>
-          {/* <section id="skills">ici skills</section>
+          <section id="skills">
+            <Skills />
+          </section>
+          {/* 
           <section id="contact">ici contact</section> */}
         </main>
       </>
