@@ -1,7 +1,7 @@
 import React from "react";
-import "./App.css";
 import { ThemeProvider } from "@emotion/react";
 import Navigation from "./components/Navigation";
+import { HeaderContainer } from "./styled";
 import Header from "./components/Header";
 import { theme } from "./theme";
 
@@ -9,16 +9,15 @@ const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <>
-        <header>
+        <Navigation />
+        <HeaderContainer>
           <div>
-            <p>ElodieF</p>
             <Header />
           </div>
           <div>
-            <Navigation />
             <img src="/elodie.png" alt="avatar" />
           </div>
-        </header>
+        </HeaderContainer>
         <main>
           <section id="home">Home</section>
           <section id="career">ici career</section>
