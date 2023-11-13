@@ -1,20 +1,20 @@
-import './App.css';
-import { ThemeProvider } from '@emotion/react';
-import Navigation from './components/Navigation';
-import { theme } from './theme';
+import React from "react";
+import "./App.css";
+import { ThemeProvider } from "@emotion/react";
+import Navigation from "./components/Navigation";
+import { theme } from "./theme";
 
-
-const  App = () => {
-
+const App = () => {
   return (
     <ThemeProvider theme={theme}>
-    <>
-      <Navigation />
-      <p> nouveau portfolio</p>
+      <>
+        <section>ici presentation</section>
+        <section />
+        <Navigation />
+        <p> nouveau portfolio</p>
       </>
-      </ThemeProvider>
+    </ThemeProvider>
+  );
+};
 
-  )
-}
-
-export default App
+export default App;
