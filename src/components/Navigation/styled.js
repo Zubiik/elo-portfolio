@@ -1,13 +1,17 @@
 import styled from "@emotion/styled";
 
 export const Container = styled.div`
-  background-color: aliceblue;
   display: flex;
+  height: 80px;
   justify-content: space-between;
   width: 100%;
   letter-spacing: 0.7px;
   text-transform: uppercase;
   font-size: 20px;
+  font-weight: 400;
+  position: sticky;
+  top: 0px;
+  background-color: white;
 `;
 export const NavContainer = styled.div`
   display: flex;
@@ -23,7 +27,7 @@ export const CustomButton = styled.button`
 `;
 export const HomeButton = styled.button`
   display: flex;
-  align-self: flex-start;
+  align-self: center;
   border: 1px solid transparent;
   cursor: pointer;
   &:hover {

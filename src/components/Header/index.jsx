@@ -1,15 +1,15 @@
 import React from "react";
-// import { Container, CustomButton } from "./styled";
+import { HeaderContainer, Title, SubTitle, ButtonToLoad } from "./styled";
 
 const Header = () => {
   return (
-    <div>
+    <HeaderContainer>
       <div>
-        <p> Elodie Frappat</p>
-        <p>Développeurse Web</p>
-        <p>Mon cv</p>
+        <Title> Elodie Frappat</Title>
+        <SubTitle>Développeuse Web fullstack</SubTitle>
+        <ButtonToLoad>Mon cv</ButtonToLoad>
       </div>
-    </div>
+    </HeaderContainer>
   );
 };
 
