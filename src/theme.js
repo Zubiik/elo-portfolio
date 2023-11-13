@@ -1,5 +1,11 @@
 export const theme = {
   colors: {
-  green: '#A3B18A'
+    green: '#588157',
+    sapin: "#3A5A40",
+    emerald: "344E41"
+  },
+  lightColors: {
+    lightGrey: '#DAD7CD',
+    green: '#A3B18A'
   }
 };
