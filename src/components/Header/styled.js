@@ -1,14 +1,10 @@
 import styled from "@emotion/styled";
 
-export const HeaderContainer = styled.div`
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-`;
+export const HeaderContainer = styled.div``;
 
 export const Title = styled.h1`
   padding-bottom: 0.6rem;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 600;
 `;
 export const SubTitle = styled.h2`

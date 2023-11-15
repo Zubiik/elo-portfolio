@@ -11,7 +11,7 @@ const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <AppContainer>
-        {/* <Navigation /> */}
+        <Navigation />
         <HeaderContainer>
           <div>
             <Header />

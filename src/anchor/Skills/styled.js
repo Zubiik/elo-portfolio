@@ -6,11 +6,11 @@ export const SkillsContainer = styled.div`
   max-width: 80%;
   align-items: center;
   gap: 2.5rem;
-  @media (min-width: 1024px) {
-  }
   border: blue 1px solid;
   padding: 1rem;
   border-radius: 8px;
+  @media (min-width: 1024px) {
+  }
 `;
 export const SkillCard = styled.article`
   border: pink 2px solid;

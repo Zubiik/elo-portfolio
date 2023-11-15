@@ -5,17 +5,16 @@ export const AppContainer = styled.div`
   flex-direction: column;
   width: 100%;
   @media (min-width: 1024px) {
-    display: flex;
-    justify-content: space-between;
   }
 `;
 export const HeaderContainer = styled.header`
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 100%;
-  @media screen and (max-width: 1024px) {
-    display: flex;
+  @media (min-width: 1024px) {
+    height: 100vh;
+    flex-direction: row;
+    justify-content: space-around;
   }
 `;
 
@@ -24,6 +23,6 @@ export const ProfilImg = styled.img`
   width: 90%;
   max-width: 450px;
   @media (min-width: 1024px) {
-    max-width: 100%;
+    max-width: 800px;
   }
 `;
