@@ -4,14 +4,26 @@ export const Container = styled.div`
   display: flex;
   height: 80px;
   justify-content: space-between;
-  width: 100%;
-  letter-spacing: 0.7px;
+  min-width: 100%;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 12px;
   font-weight: 400;
   position: sticky;
   top: 0px;
   background-color: white;
+  @media (min-width: 1024px) {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    min-width: 100%;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+  }
 `;
 export const NavContainer = styled.div`
   display: flex;

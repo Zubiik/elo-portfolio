@@ -1,10 +1,10 @@
 import React from "react";
-import { ImageCircle, AboutContainer, AboutText } from "./styled";
+import { ImageCircle, AboutContainer, AboutText, AboutTitle } from "./styled";
 
 const About = () => {
   return (
     <>
-      <h1> A propos</h1>
+      <AboutTitle> A propos</AboutTitle>
       <AboutContainer>
         <AboutText>
           J'ai débuté dans le développement web en autodidacte, poussée par ma

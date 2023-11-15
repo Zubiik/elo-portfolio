@@ -24,7 +24,13 @@ import {
   SiFigma,
 } from "react-icons/si";
 import { TbBrandVscode } from "react-icons/tb";
-import { SkillsContainer, SkillCard, SkillInfo, SkillList } from "./styled";
+import {
+  SkillsContainer,
+  SkillCard,
+  SkillInfo,
+  SkillList,
+  InfoTitle,
+} from "./styled";
 
 const Skills = () => {
   return (
@@ -32,96 +38,98 @@ const Skills = () => {
       <h1> Mes competences</h1>
       <SkillsContainer>
         <SkillCard>
-          <h3>Front end</h3>
+          <InfoTitle>Front end</InfoTitle>
           <SkillList>
             <SkillInfo>
-              <AiOutlineHtml5 size="5rem" color="black" />
+              <AiOutlineHtml5 size="4rem" color="black" />
               html
             </SkillInfo>
             <SkillInfo>
-              <BiLogoCss3 size="5rem" color="black" />
+              <BiLogoCss3 size="4rem" color="black" />
               css
             </SkillInfo>
             <SkillInfo>
-              <RiJavascriptFill size="5rem" color="black" />
+              <RiJavascriptFill size="4rem" color="black" />
               Javascript
             </SkillInfo>
             <SkillInfo>
-              <BiLogoReact size="5rem" color="black" />
+              <BiLogoReact size="4rem" color="black" />
               React
             </SkillInfo>
             <SkillInfo>
-              <BiLogoReact size="5rem" color="black" />
-              React Native
+              <BiLogoReact size="4rem" color="black" />
+              React <br />
+              Native
             </SkillInfo>
             <SkillInfo>
-              <SiExpo size="5rem" color="black" />
+              <SiExpo size="4rem" color="black" />
               Expo
             </SkillInfo>
             <SkillInfo>
-              <BiLogoSass size="5rem" color="black" />
+              <BiLogoSass size="4rem" color="black" />
               Sass
             </SkillInfo>
             <SkillInfo>
-              <SiStyledcomponents size="5rem" color="black" />
-              Styled Component
+              <SiStyledcomponents size="4rem" color="black" />
+              Styled <br />
+              Component
             </SkillInfo>
           </SkillList>
         </SkillCard>
         <SkillCard>
-          <h3>Back end</h3>
+          <InfoTitle>Back end</InfoTitle>
           <SkillList>
             <SkillInfo>
-              <BiLogoPhp size="5rem" color="black" />
+              <BiLogoPhp size="4rem" color="black" />
               Php
             </SkillInfo>
             <SkillInfo>
-              <BiLogoNodejs size="5rem" color="black" />
+              <BiLogoNodejs size="4rem" color="black" />
               NodeJs
             </SkillInfo>
             <SkillInfo>
-              <SiExpress size="5rem" color="black" />
+              <SiExpress size="4rem" color="black" />
               express
             </SkillInfo>
             <SkillInfo>
-              <SiMysql size="5rem" color="black" />
+              <SiMysql size="4rem" color="black" />
               MySql
             </SkillInfo>
             <SkillInfo>
-              <BiLogoMongodb size="5rem" color="black" />
+              <BiLogoMongodb size="4rem" color="black" />
               MongoDB
             </SkillInfo>
           </SkillList>
         </SkillCard>
         <SkillCard>
-          <h3>Outils et environnement</h3>
+          <InfoTitle>Outils et environnement</InfoTitle>
           <SkillList>
             <SkillInfo>
-              <TbBrandVscode size="5rem" color="black" />
+              <TbBrandVscode size="4rem" color="black" />
               VsCode
             </SkillInfo>
             <SkillInfo>
-              <BiGitBranch size="5rem" color="black" />
+              <BiGitBranch size="4rem" color="black" />
               Git
             </SkillInfo>
             <SkillInfo>
-              <AiFillGithub size="5rem" color="black" />
+              <AiFillGithub size="4rem" color="black" />
               Github
             </SkillInfo>
             <SkillInfo>
-              <AiOutlineMacCommand size="5rem" color="black" />
+              <AiOutlineMacCommand size="4rem" color="black" />
               MacOS
             </SkillInfo>
             <SkillInfo>
-              <SiLinux size="5rem" color="black" />
+              <SiLinux size="4rem" color="black" />
               Linux
             </SkillInfo>
             <SkillInfo>
-              <SiPostman size="5rem" color="black" />
+              <SiPostman size="4rem" color="black" />
               Postman
             </SkillInfo>
             <SkillInfo>
-              <SiFigma size="5rem" color="black" />
+              <SiFigma size="4rem" color="black" />
               Figma
             </SkillInfo>
           </SkillList>
