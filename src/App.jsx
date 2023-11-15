@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import { theme } from "./theme";
 import About from "./anchor/About";
 import Skills from "./anchor/Skills";
+import Projects from "./anchor/Projects";
 
 const App = () => {
   return (
@@ -26,6 +27,9 @@ const App = () => {
           </section>
           <section id="skills">
             <Skills />
+          </section>
+          <section id="projects">
+            <Projects />
           </section>
         </main>
       </AppContainer>
